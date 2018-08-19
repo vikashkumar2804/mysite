@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'giabodgpin05f9@82&m#n01umz4att)o(#k)tb2$sjnzrwg+o8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.vikashkumarsite.com']
+DEFAULT_FROM_EMAIL = 'vikashkumar2804@gmail.com'
+
 
 
 # Application definition
@@ -120,7 +122,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS = ['127.0.0.1', '.vikashkumar2804.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.vikashkumarsite.com']
 
 DATABASES = {
     'default': {
